@@ -1,0 +1,55 @@
+﻿body {
+  background: #2b2b2b;
+  height: 100vh;
+  margin: 50px;
+  text-align: center;
+  font-family: "Helvetica neue", "roboto", Sans-Serif;
+  color: #bdbdbd;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+a {
+  color: #bdbdbd;
+  text-decoration: underline;
+}
+
+table {
+  border-collapse: collapse;
+  width: 400px;
+}
+
+td th {
+  height: 10px;
+  width: 300px;
+}
+
+.button {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #bdbdbd;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.correct {
+  background-color: #69b457;
+  transition: .5s;
+}
+
+.error {
+  background-color: #bc2b0a;
+  transition: .5s;
+}
+
+#city_name {
+  font-size: 1.5em;
+}
+
+.score {
+  font-size: 1.5em;
+}
